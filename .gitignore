@@ -1,0 +1,26 @@
+# virtual environment
+llm/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# data (large binary files)
+data/*.bin
+
+# checkpoints (large)
+out/*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
